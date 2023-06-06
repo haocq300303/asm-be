@@ -32,7 +32,7 @@ module.exports.datastores = {
 
   default: {
     adapter: 'sails-mongo',
-    url: 'mongodb+srv://haodev3003:Zsotrc23@@asm.7ubljfk.mongodb.net/?retryWrites=true&w=majority',
+    url: 'mongodb+srv://haodev3003:Zsotrc23@@asm.7ubljfk.mongodb.net/ASM?retryWrites=true&w=majority',
     ssl: true,
     /***************************************************************************
      *                                                                          *
