@@ -4,9 +4,6 @@
       "NODE_ENV": "production",
       "MONGODB_URI": "mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PASSWORD}@${process.env.MONGODB_HOST}/${process.env.MONGODB_DATABASE}?retryWrites=true&w=majority"
     },
-    "commands": {
-      "install": "npm install"
-    },
     "functions": {
       "api/**/*": {
         "memory": 1024,
