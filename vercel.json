@@ -1,11 +1,16 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "*.js",
-      "use": "@vercel/node"
+  "build": {
+    "env": {
+      "NODE_ENV": "production",
+      "MONGODB_URI": "mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PASSWORD}@${process.env.MONGODB_HOST}/${process.env.MONGODB_DATABASE}?retryWrites=true&w=majority"
     }
-  ],
+  },
+  "env": {
+    "MONGODB_USER": "haodev3003",
+    "MONGODB_PASSWORD": "Zsotrc23@",
+    "MONGODB_DATABASE": "ASM",
+    "MONGODB_HOST": "asm.7ubljfk.mongodb.net"
+  },
   "routes": [
     {
       "src": "/(.*)",
