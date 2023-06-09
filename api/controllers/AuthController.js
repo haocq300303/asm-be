@@ -67,7 +67,7 @@ module.exports = {
       }
 
       // create token
-      const token = await generateToken({ id: user.id, name: user.name, email: user.email });
+      const token = await generateToken({ id: user.id, name: user.name, email: user.email, role: user.role });
 
       return res.ok({
         error: false,

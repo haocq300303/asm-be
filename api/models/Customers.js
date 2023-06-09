@@ -21,6 +21,8 @@ module.exports = {
 
     phoneNumber: { type: 'string' },
 
+    role: { type: 'string' },
+
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
     //  ║╣ ║║║╠╩╗║╣  ║║╚═╗
     //  ╚═╝╩ ╩╚═╝╚═╝═╩╝╚═╝
